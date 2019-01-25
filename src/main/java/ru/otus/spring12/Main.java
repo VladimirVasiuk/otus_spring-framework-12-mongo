@@ -10,7 +10,6 @@ import ru.otus.spring12.repostory.PersonRepository;
 
 import javax.annotation.PostConstruct;
 
-@EnableMongoRepositories
 @SpringBootApplication
 public class Main {
 

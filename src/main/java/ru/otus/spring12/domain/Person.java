@@ -3,10 +3,8 @@ package ru.otus.spring12.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "persons")
 public class Person {
 
-    @Id
     private String id;
     private String name;
 
